@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gu.Wpf.SingleInstance", "Gu.Wpf.SingleInstance\Gu.Wpf.SingleInstance.csproj", "{04D37D86-DF37-478F-90C6-2217B1287748}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{57F5D338-ACF4-45C3-8B26-4BAD757193BC}"
+	ProjectSection(SolutionItems) = preProject
+		Gu.Wpf.SingleInstance\Gu.Wpf.SingleInstance.nuspec = Gu.Wpf.SingleInstance\Gu.Wpf.SingleInstance.nuspec
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\nuspec.2010.7.xsd = .nuget\nuspec.2010.7.xsd
+		.nuget\nuspec.2011.8.xsd = .nuget\nuspec.2011.8.xsd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CreateNugetPackage|Any CPU = CreateNugetPackage|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04D37D86-DF37-478F-90C6-2217B1287748}.CreateNugetPackage|Any CPU.ActiveCfg = CreateNugetPackage|Any CPU
+		{04D37D86-DF37-478F-90C6-2217B1287748}.CreateNugetPackage|Any CPU.Build.0 = CreateNugetPackage|Any CPU
+		{04D37D86-DF37-478F-90C6-2217B1287748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D37D86-DF37-478F-90C6-2217B1287748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D37D86-DF37-478F-90C6-2217B1287748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D37D86-DF37-478F-90C6-2217B1287748}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
